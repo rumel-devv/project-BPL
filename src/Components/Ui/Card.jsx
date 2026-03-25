@@ -1,9 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { UserRound } from 'lucide-react';
 import { FaFlag, FaUser } from 'react-icons/fa';
 import { TiFlag } from 'react-icons/ti';
 
-const Card = ({player} ) => {
+const Card = ({player,setCoin,coin,setSelectedPlyers,selectedPlayers} ) => {
+    const [isSelected,setIsSelected] = useState(false)
+ 
+   const handleChoosPlayer = () => {
+     {
+      let newCoin = coin - player.price
+      if(newCoin >=  0 ){
+        setCoin(newCoin)
+        setIsSelected(true)
+      } else{
+        alert('Not enough coin available')
+        return;
+      }
+
+      alert(`${player.player_name} is selected`);
+       setIsSelected(true)
+       setSelectedPlyers([...selectedPlayers,player])
+    }
+   }
+
     return (
            <div className="card bg-base-100 w-full  md:w-96 shadow-sm">
    <figure>
@@ -31,7 +50,7 @@ const Card = ({player} ) => {
 
     <div className="flex justify-between items-center">
         <p className='font-semibold'> Price$ {player.price}</p>
-      <button className="btn">Buy Now</button>
+      <button onClick={handleChoosPlayer}  disabled ={isSelected ? true : false} className="btn">{isSelected === true ? "Selected" : 'Chosse Player'} </button>
      </div>
     </div>
 </div>

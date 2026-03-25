@@ -7,7 +7,7 @@
     "rating": 9.5,
     "bowling_style": "Right-arm medium",
     "batting_style": "Right-hand bat",
-    "price": 1200000,
+    "price": 12000,
     "image": "https://i.ibb.co.com/8gL5HB0K/virat-kohli.jpg"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 9.3,
     "bowling_style": "Slow left-arm orthodox",
     "batting_style": "Left-hand bat",
-    "price": 900000,
+    "price": 90000,
     "image": "https://i.ibb.co.com/x8tP3M8b/508893f7-8087-4373-b509-02fb4c37a791.jpg"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 9.2,
     "bowling_style": "Right-arm offbreak",
     "batting_style": "Right-hand bat",
-    "price": 1000000,
+    "price": 130000,
     "image": "https://i.ibb.co.com/GQP52hpK/gettyimages-2155759861-612x612.jpg"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 9.0,
     "bowling_style": "Right-arm fast-medium",
     "batting_style": "Left-hand bat",
-    "price": 1100000,
+    "price": 10000,
     "image": "https://i.ibb.co.com/JWmYbKrk/3-14-Captain-Ben-cropped.jpg"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 8.9,
     "bowling_style": "Left-arm fast",
     "batting_style": "Left-hand bat",
-    "price": 950000,
+    "price": 95000,
     "image": "https://i.ibb.co.com/B2Dv9Rvr/MV5-BZj-Q5-Nm-Vk-Yzct-NWU2-OS00-MWU1-LThk-MWUt-N2-Vj-MDIy-Yzlk-Mm-M5-Xk-Ey-Xk-Fqc-Gc-V1.jpg"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 9.1,
     "bowling_style": "Right-arm offbreak",
     "batting_style": "Right-hand bat",
-    "price": 1050000,
+    "price": 10500,
     "image": "https://i.ibb.co.com/tPL4HZR3/Getty-Images-2188210826.webp"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 9.0,
     "bowling_style": "Right-arm offbreak",
     "batting_style": "Right-hand bat",
-    "price": 1020000,
+    "price": 10200,
     "image": "https://i.ibb.co.com/TMFYgjzd/kane-williamson-12-10-2023.png"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 9.4,
     "bowling_style": "Left-arm fast",
     "batting_style": "Right-hand bat",
-    "price": 1150000,
+    "price": 11500,
     "image": "https://i.ibb.co.com/hJ9zY5jz/1745.webp"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 9.3,
     "bowling_style": "Right-arm legbreak",
     "batting_style": "Right-hand bat",
-    "price": 980000,
+    "price": 98000,
     "image": "https://i.ibb.co.com/QFP7VYfD/rashid-khan-08-10-2023.webp"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 8.8,
     "bowling_style": "Right-arm Fast",
     "batting_style": "Left-hand bat",
-    "price": 970000,
+    "price": 97000,
     "image": "https://i.ibb.co.com/bRbMkLGR/58314.webp"
   },
   {
@@ -117,7 +117,7 @@
     "rating": 9.6,
     "bowling_style": "Right-arm medium",
     "batting_style": "Right-hand bat",
-    "price": 1250000,
+    "price": 120000,
     "image": "https://i.ibb.co.com/8gL5HB0K/virat-kohli.jpg"
   },
   {
@@ -139,29 +139,7 @@
     "rating": 8.7,
     "bowling_style": "Left-arm fast-medium",
     "batting_style": "Right-hand bat",
-    "price": 920000,
-    "image": "https://i.ibb.co.com/8gL5HB0K/virat-kohli.jpg"
-  },
-  {
-    "id": 14,
-    "player_name": "Jos Buttler",
-    "player_country": "England",
-    "player_type": "Wicketkeeper-Batsman",
-    "rating": 9.1,
-    "bowling_style": "N/A",
-    "batting_style": "Right-hand bat",
-    "price": 1080000,
-    "image": "https://i.ibb.co.com/8gL5HB0K/virat-kohli.jpg"
-  },
-  {
-    "id": 15,
-    "player_name": "Faf du Plessis",
-    "player_country": "South Africa",
-    "player_type": "Batsman",
-    "rating": 8.8,
-    "bowling_style": "Right-arm legbreak",
-    "batting_style": "Right-hand bat",
-    "price": 940000,
+    "price": 9200,
     "image": "https://i.ibb.co.com/8gL5HB0K/virat-kohli.jpg"
   }
 ]
