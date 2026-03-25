@@ -15,12 +15,11 @@ const fecthPlayer = async () => {
 function App() {
  
 const playerPromise = fecthPlayer()
-console.log(playerPromise);
   return (
     <>
    <Navbar></Navbar>  
    <Banner></Banner>
-   <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
+   <Suspense fallback={<span className="loading loading-bars loading-xl "></span>}>
     <Players playerPromise={playerPromise} ></Players>
    </Suspense>
     </>

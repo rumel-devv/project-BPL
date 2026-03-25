@@ -118,7 +118,7 @@
     "bowling_style": "Right-arm medium",
     "batting_style": "Right-hand bat",
     "price": 1250000,
-    "image": "https://i.ibb.co/abd.jpg"
+    "image": "https://i.ibb.co.com/8gL5HB0K/virat-kohli.jpg"
   },
   {
     "id": 12,
@@ -129,7 +129,7 @@
     "bowling_style": "Right-arm fast-medium",
     "batting_style": "Right-hand bat",
     "price": 990000,
-    "image": "https://i.ibb.co/hardik.jpg"
+    "image": "https://i.ibb.co.com/8gL5HB0K/virat-kohli.jpg"
   },
   {
     "id": 13,
@@ -140,7 +140,7 @@
     "bowling_style": "Left-arm fast-medium",
     "batting_style": "Right-hand bat",
     "price": 920000,
-    "image": "https://i.ibb.co/boult.jpg"
+    "image": "https://i.ibb.co.com/8gL5HB0K/virat-kohli.jpg"
   },
   {
     "id": 14,
@@ -151,7 +151,7 @@
     "bowling_style": "N/A",
     "batting_style": "Right-hand bat",
     "price": 1080000,
-    "image": "https://i.ibb.co/buttler.jpg"
+    "image": "https://i.ibb.co.com/8gL5HB0K/virat-kohli.jpg"
   },
   {
     "id": 15,
@@ -162,6 +162,6 @@
     "bowling_style": "Right-arm legbreak",
     "batting_style": "Right-hand bat",
     "price": 940000,
-    "image": "https://i.ibb.co/faf.jpg"
+    "image": "https://i.ibb.co.com/8gL5HB0K/virat-kohli.jpg"
   }
 ]
