@@ -4,6 +4,8 @@ import Navbar from './Components/Navbar/Navbar'
 import Banner from './homepage/banner/Banner'
 import Players from './homepage/Players/Players'
 import { ToastContainer } from 'react-toastify'
+import Newsletter from './homepage/Footer/Newsletter'
+import Footer from './homepage/Footer/Footer'
 
 
 
@@ -25,6 +27,8 @@ const playerPromise = fecthPlayer()
    <Suspense fallback={<span className="loading loading-bars loading-xl "></span>}>
     <Players playerPromise={playerPromise} setCoin={setCoin} coin={coin} ></Players>
    </Suspense>
+   <Newsletter ></Newsletter>
+   <Footer></Footer>
    <ToastContainer></ToastContainer>
     </>
   )
