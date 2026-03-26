@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { UserRound } from 'lucide-react';
 import { FaFlag, FaUser } from 'react-icons/fa';
 import { TiFlag } from 'react-icons/ti';
+import { toast } from 'react-toastify';
 
 const Card = ({player,setCoin,coin,setSelectedPlyers,selectedPlayers} ) => {
     const [isSelected,setIsSelected] = useState(false)
@@ -13,11 +14,11 @@ const Card = ({player,setCoin,coin,setSelectedPlyers,selectedPlayers} ) => {
         setCoin(newCoin)
         setIsSelected(true)
       } else{
-        alert('Not enough coin available')
+        toast.warning('Not enough coin available')
         return;
       }
 
-      alert(`${player.player_name} is selected`);
+       toast.success(`${player.player_name} is selected`);
        setIsSelected(true)
        setSelectedPlyers([...selectedPlayers,player])
     }

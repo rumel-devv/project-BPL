@@ -1,7 +1,5 @@
-import { Filter } from 'lucide-react';
 import React from 'react';
-import { FaUser } from 'react-icons/fa';
-import { MdDelete } from 'react-icons/md';
+import SelectedCard from '../../../Components/Ui/SelectedCard';
 
 const SelectedPlyers = ({selectedPlayers,setSelectedPlyers,coin,setCoin}) => {
   console.log('selectedplares',selectedPlayers);
@@ -15,23 +13,14 @@ const SelectedPlyers = ({selectedPlayers,setSelectedPlyers,coin,setCoin}) => {
   }
     return (
         <div className='space-y-2'>
-           {selectedPlayers.map((player,ind) => {
+           {selectedPlayers.length === 0 ? 
+           <div className='text-center py-20'>
+            <h2 className='text-xl font-semibold'>No Players Selceted Yet</h2>
+            <p>Go to Players tab to selected player</p>
+           </div> :  
+            selectedPlayers.map((player,ind) => {
               return (
-                <div key={ind} className='flex justify-between p-5 border items-center rounded-md' >
-             <div className='flex items-center gap-6'> 
-                <img className='w-22 h-16 rounded-md' src={player.image} alt='image'></img>
-                   <div>
-                   <p className='flex items-center gap-2 font-bold text-md' > <FaUser></FaUser> {player.player_name} </p>
-                   <p>{player.batting_style} </p>
-                    </div>
-                 </div>
-                 <div>
-                <button onClick={() => handleDeleteSelectedPlayer(player)}>
-                    <MdDelete className='text-xl text-red-700'></MdDelete>
-                 </button>
-                 </div>
-                
-                </div>
+                <SelectedCard key={ind} player={player} handleDeleteSelectedPlayer={handleDeleteSelectedPlayer} ></SelectedCard>
               )
            })}
         </div>
